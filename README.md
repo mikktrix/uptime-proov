@@ -1,2 +1,5 @@
 # uptime-proov
-Uptime PHP prooviülesanne
+Uptime PHP proviülesanne
+
+
+RSS feed - display posts - open through Merqury API
