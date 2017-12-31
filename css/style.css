@@ -55,7 +55,7 @@ p{
 
 /* When screen is larger than 768 px */
 
-@media screen and (min-width: 768px) {
+@media screen only and (min-width: 768px) {
 	strong{
 		font-size: 100%;
 	}
