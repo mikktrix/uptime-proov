@@ -19,15 +19,26 @@
 	</div>
 
 <script type="text/javascript">
-
+function isMobile() {
+  try{ document.createEvent("TouchEvent"); return true; }
+  catch(e){ return false; }
+}
+if (isMobile){	
 //Open new window, running curl.php?"clicked posts URL" 
+$(document).ready(function() {
+$(".cell").click(function () {
+  window.open($(this).attr("title"), '_blank');
+  //window.open($(this).attr("title"), "_blank", "scrollbars=1,resizable=1,height=500,width=450");   
+  });
+});
+}else{
 $(document).ready(function() {
 $(".cell").click(function () {
   //window.open($(this).attr("title"), '_blank');
   window.open($(this).attr("title"), "_blank", "scrollbars=1,resizable=1,height=500,width=450");   
   });
-});
-
+});	
+}	
 </script>
 
 </body>
