@@ -23,8 +23,9 @@
 //Open new window, running curl.php?"clicked posts URL" 
 $(document).ready(function() {
 $(".cell").click(function () {
-     window.open($(this).attr("title"), '_blank');
-    });
+  //window.open($(this).attr("title"), '_blank');
+  window.open($(this).attr("title"), "_blank", "scrollbars=1,resizable=1,height=500,width=450");   
+  });
 });
 
 </script>
