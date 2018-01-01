@@ -24,7 +24,7 @@
 $(document).ready(function() {
 $(".cell").click(function () {
   //window.open($(this).attr("title"), '_blank');
-  window.open($(this).attr("title"), "_blank", "scrollbars=1,resizable=1,height=500,width=450,left=200,top=100");   
+  window.open($(this).attr("title"), "_blank", "scrollbars=1,resizable=1,height=500,width=450");   
   });
 });
 
