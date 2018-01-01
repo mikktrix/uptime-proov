@@ -1,5 +1,5 @@
 # uptime-proov
-Uptime PHP proviülesanne - Mikk Villem
+Uptime PHP prooviülesanne - Mikk Villem
 
 
 RSS feed - display posts - open through Merqury API
