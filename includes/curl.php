@@ -33,7 +33,7 @@ if($response === false){
     }
 curl_close($curl);
 
-$final = preg_replace('/\n/', '', $response);
+$final = preg_replace('/\\\\n/', '', $response);
 
 echo $final;
 
